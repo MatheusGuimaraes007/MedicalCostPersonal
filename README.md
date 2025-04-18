@@ -73,6 +73,19 @@ Este gráfico de barras compara o **gasto médio anual com plano de saúde** ent
 
 ![Captura de tela 2025-04-18 163903](https://github.com/user-attachments/assets/d5e0df30-8627-4ae5-b322-9c6871b0346e)
 
+### 📉 Gráfico: Resíduos da Regressão Linear
+
+Este gráfico mostra a distribuição dos **resíduos do modelo**, ou seja, a diferença entre os valores **reais** e os **previstos** (Erro = Real − Previsto).
+
+🔍 A linha vermelha representa o ponto ideal onde o erro é zero.  
+Pontos acima dela indicam que o modelo **subestimou o valor real** (errou pra menos), enquanto pontos abaixo indicam que **superestimou** (errou pra mais).
+
+📊 A maioria dos resíduos se concentra entre **-5.000 e +5.000**, alinhando-se com as métricas MAE (~3.900) e RMSE (~5.600) obtidas na avaliação.
+
+➡️ A dispersão dos resíduos é relativamente homogênea e sem padrão aparente, o que indica que o modelo não possui viés sistemático e está fazendo previsões consistentes para diferentes faixas de valor.
+
+![Captura de tela 2025-04-18 164256](https://github.com/user-attachments/assets/2598a2c3-7a80-4f9e-93fc-34a6363e261a)
+
 
 ---
 
@@ -100,6 +113,7 @@ Disponível publicamente em: [Kaggle - Insurance Dataset](https://www.kaggle.com
 ## 🧑‍💻 Autor
 
 Matheus Guimarães – [linkedin.com/in/MatheusGuimaraes007](https://github.com/MatheusGuimaraes007)
+
 
 
 
