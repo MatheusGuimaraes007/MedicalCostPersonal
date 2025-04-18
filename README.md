@@ -37,7 +37,42 @@ A análise foi realizada sobre um **dataset público**, amplamente utilizado em 
 
 ## 🖼️ Imagens do Projeto
 
+### 📉 Gráfico: Previsão vs Valor Real (Regressão Linear)
+
+Este gráfico de dispersão compara os valores **previstos pelo modelo de regressão linear** (eixo Y) com os **valores reais observados** no conjunto de teste (eixo X).  
+A linha vermelha pontilhada representa a **linha ideal de previsão perfeita** — onde previsão e realidade seriam idênticas.
+
+🔎 **Quanto mais próximos os pontos estiverem dessa linha, melhor a performance do modelo.**
+
+📊 Neste caso, o modelo obteve um bom desempenho, com as previsões concentradas em torno da linha, especialmente nas faixas de menor gasto.  
+Em valores mais altos, há uma leve tendência de subestimativa — algo esperado em modelos lineares aplicados a dados com grande variabilidade nos extremos.
+
 ![Captura de tela 2025-04-18 163429](https://github.com/user-attachments/assets/977573fc-aa19-45fa-90c9-7e9c51c98427)
+
+### 📊 Gráfico: Dispersão entre IMC e Gastos com Saúde
+
+Este gráfico mostra a relação entre o **Índice de Massa Corporal (IMC)** dos pacientes (eixo X) e os **gastos anuais com plano de saúde** (eixo Y).
+
+📌 Embora exista uma concentração de maiores gastos em pacientes com IMC acima de 30, a dispersão é ampla — indicando que o IMC **sozinho não explica totalmente os altos custos**.
+
+🔍 O gráfico sugere que, apesar de uma leve tendência positiva, existem muitos pacientes com IMC elevado e baixo custo, e vice-versa.
+
+➡️ Isso reforça a importância de considerar **várias variáveis em conjunto**, como foi feito na regressão linear múltipla.
+
+![Captura de tela 2025-04-18 163750](https://github.com/user-attachments/assets/582b14fa-8eda-4990-bda4-4bf09bf3bf97)
+
+### 🚬 Gráfico: Impacto do Fumo nos Custos de Saúde
+
+Este gráfico de barras compara o **gasto médio anual com plano de saúde** entre **fumantes** e **não fumantes**, em dólares.
+
+📊 A diferença é expressiva: fumantes apresentaram um gasto médio acima de **$32.000**, enquanto não fumantes ficaram próximos de **$8.400**.
+
+🔥 Esse contraste evidencia o **alto custo financeiro associado ao tabagismo**, mesmo antes de considerar complicações clínicas mais graves.
+
+➡️ Esse foi um dos insights mais fortes do projeto e foi validado tanto na análise exploratória quanto na regressão linear múltipla.
+
+![Captura de tela 2025-04-18 163903](https://github.com/user-attachments/assets/d5e0df30-8627-4ae5-b322-9c6871b0346e)
+
 
 ---
 
@@ -64,5 +99,7 @@ Disponível publicamente em: [Kaggle - Insurance Dataset](https://www.kaggle.com
 
 ## 🧑‍💻 Autor
 
-Luis Kempe – [linkedin.com/in/luiskempe](https://linkedin.com/in/luiskempe)
+Matheus Guimarães – [linkedin.com/in/MatheusGuimaraes007](https://github.com/MatheusGuimaraes007)
+
+
 
